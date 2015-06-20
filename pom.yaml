@@ -3,7 +3,7 @@ project:
 
   groupId:    'premise'
   artifactId: 'dkobo'
-  version:    '1.0.1'
+  version:    '1.0.2-SNAPSHOT'
 
   repositories/repository:
     - { id: 'premise', url: 'https://premise.artifactoryonline.com/premise/all' }
