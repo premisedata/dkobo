@@ -107,11 +107,11 @@ INSTALLED_APPS = (
     'compressor',
     'gunicorn',
     'south',
+    'django_digest',
     'rest_framework',
     'rest_framework.authtoken',
     'django_extensions',
     'taggit',
-    'django_digest',
     'reversion',
 )
 

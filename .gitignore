@@ -18,6 +18,7 @@ local_settings.py
 node_modules
 npm-debug.log
 deployments.json
+src/
 
 dkobo/koboform/templates/sandbox.html
 dkobo/koboform/templates/sandbox-stub.html
