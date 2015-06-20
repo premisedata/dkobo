@@ -19,6 +19,7 @@ node_modules
 npm-debug.log
 deployments.json
 src/
+target/
 
 dkobo/koboform/templates/sandbox.html
 dkobo/koboform/templates/sandbox-stub.html
