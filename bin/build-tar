@@ -1,0 +1,9 @@
+#!/bin/bash -eu
+
+show_cmd() { echo "$@"; "$@"; }
+
+target="$1"; shift
+
+show_cmd tar czvhf "$target" \
+  --exclude=target/ \
+  .
