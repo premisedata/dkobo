@@ -4,6 +4,7 @@ define 'cs!xlform/view.icons', [
             Backbone,
             )->
 
+# Hide the question type icons that are not supported by Premise
   iconDetails = [
     # row 1
       label: "Select One"
@@ -33,79 +34,79 @@ define 'cs!xlform/view.icons', [
       grouping: "r2"
       id: "decimal"
     ,
-      label: "Date"
-      faClass: "calendar"
-      grouping: "r2"
-      id: "date"
-    ,
-      label: "Time"
-      faClass: "clock-o"
-      grouping: "r2"
-      id: "time"
-    ,
-      label: "Date & time"
-      faClass: "calendar clock-over"
-      grouping: "r2"
-      id: "datetime"
-    ,
+#      label: "Date"
+#      faClass: "calendar"
+#      grouping: "r2"
+#      id: "date"
+#    ,
+#      label: "Time"
+#      faClass: "clock-o"
+#      grouping: "r2"
+#      id: "time"
+#    ,
+#      label: "Date & time"
+#      faClass: "calendar clock-over"
+#      grouping: "r2"
+#      id: "datetime"
+#    ,
 
     # r3
-      label: "GPS"
+      label: "Place"
       faClass: "map-marker"
-      grouping: "r3"
+      grouping: "r2"
       id: "geopoint"
     ,
       label: "Photo"
       faClass: "picture-o"
-      grouping: "r3"
+      grouping: "r2"
       id: "image"
     ,
-      label: "Audio"
-      faClass: "volume-up"
-      grouping: "r3"
-      id: "audio"
-    ,
-      label: "Video"
-      faClass: "video-camera"
-      grouping: "r3"
-      id: "video"
-    ,
-
-    # r4
-      label: "Note"
-      faClass: "bars"
-      grouping: "r4"
-      id: "note"
-    ,
-      label: "Barcode"
-      faClass: "barcode"
-      grouping: "r4"
-      id: "barcode"
-    ,
-      label: "Acknowledge"
-      faClass: "check-square-o"
-      grouping: "r4"
-      id: "acknowledge"
-    ,
-      label: "Calculate"
-      faClass: "lato-calculate"
-      grouping: "r4"
-      id: "calculate"
-    ,
-
-    # r5
-      label: "Score"
-      # faClass: "server"
-      # will look better but isn't available until FA 4.3
-      faClass: "th"
-      grouping: "r5"
-      id: "score"
-    ,
-      label: "Rank"
-      faClass: "sort-amount-desc"
-      grouping: "r5"
-      id: "rank"
-    ,
+#      label: "Audio"
+#      faClass: "volume-up"
+#      grouping: "r3"
+#      id: "audio"
+#    ,
+#      label: "Video"
+#      faClass: "video-camera"
+#      grouping: "r3"
+#      id: "video"
+#    ,
+#
+#    # r4
+#      label: "Note"
+#      faClass: "bars"
+#      grouping: "r4"
+#      id: "note"
+#    ,
+#      label: "Barcode"
+#      faClass: "barcode"
+#      grouping: "r4"
+#      id: "barcode"
+#    ,
+#      label: "Acknowledge"
+#      faClass: "check-square-o"
+#      grouping: "r4"
+#      id: "acknowledge"
+#    ,
+#      label: "Calculate"
+#      faClass: "lato-calculate"
+#      grouping: "r4"
+#      id: "calculate"
+#    ,
+#
+#    # r5
+#      label: "Score"
+#      # faClass: "server"
+#      # will look better but isn't available until FA 4.3
+#      faClass: "th"
+#      grouping: "r5"
+#      id: "score"
+#    ,
+#      label: "Rank"
+#      faClass: "sort-amount-desc"
+#      grouping: "r5"
+#      id: "rank"
+#    ,
     ]
 
   class QtypeIcon extends Backbone.Model
